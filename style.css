@@ -8,10 +8,12 @@ body {
   }
   
   .topbar {
-    overflow: auto;
+    overflow: hidden;
     background-color: #c27d62;
-    padding: 14px 16px;
-    
+    padding: 5px 14px;
+    position:fixed;
+    top: 0;
+    width: 100%
   }
   
   .topbar a {
@@ -34,7 +36,8 @@ body {
     color: rgb(0, 0, 0);
   }
 
-
+  
+  
 
 /*This is the sign up page */
   .container {
@@ -44,7 +47,7 @@ body {
 button {
   background-color: #c27d62;
   color: rgb(0, 0, 0);
-  padding: 14px 20px;
+  padding: 12px 18px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
@@ -128,4 +131,9 @@ hr {
   display: table;
 }
 
+
+img {
+        text-align: left;
+        float:left;
+    }
 
