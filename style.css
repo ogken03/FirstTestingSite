@@ -2,130 +2,130 @@
 /* This section is the top nav */
 
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #c4cecf;
-}
-
-.topbar {
-  overflow: auto;
-  background-color: #c27d62;
-  padding: 14px 16px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c4cecf;
+  }
   
-}
-
-.topbar a {
-  float: none;
-  color: #020202;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  top: 50%;
-  left: 50%;
-}
-
-.topbar a:hover {
-  color: rgb(173, 173, 173);
-}
-
-.topbar a.active {
-  background-color: #c7b3b3;
-  color: rgb(0, 0, 0);
-}
+  .topbar {
+    overflow: auto;
+    background-color: #c27d62;
+    padding: 14px 16px;
+    
+  }
+  
+  .topbar a {
+    float: none;
+    color: #020202;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .topbar a:hover {
+    color: rgb(173, 173, 173);
+  }
+ 
+  .topbar a.active {
+    background-color: #c7b3b3;
+    color: rgb(0, 0, 0);
+  }
 
 
 
 /*This is the sign up page */
-.container {
-padding: 40px;
+  .container {
+  padding: 40px;
 }
 
 button {
-background-color: #c27d62;
-color: rgb(0, 0, 0);
-padding: 14px 20px;
-margin: 8px 0;
-border: none;
-cursor: pointer;
-width: 100%;
-opacity: 0.9;
+  background-color: #c27d62;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
 
 button:hover {
-opacity:1;
-background-color: #ffffff;
-color: rgb(0, 0, 0);
+  opacity:1;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 input[type=text], input[type=password] {
-width: 100%;
-padding: 15px;
-margin: 15px 0 15px 0;
-display: inline-block;
-border: none;
-background: #f1f1f1;
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-background-color: #ddd;
-outline: none;
+  background-color: #ddd;
+  outline: none;
 }
 
 .cancelbtn {
-padding: 14px 20px;
-background-color: #f44336;
+  padding: 14px 20px;
+  background-color: #f44336;
 }
 
 .cancelbtn:hover {
-background-color: #c7b3b3;
+  background-color: #c7b3b3;
 }
 
 .signupbtn {
-padding: 14px 20px;
-background-color: #c27d62;
+  padding: 14px 20px;
+  background-color: #c27d62;
 }
 
 .signupbtn:hover {
-background-color: #c7b3b3;
+  background-color: #c7b3b3;
 }
 
 .cancelbtn, .signupbtn {
-float: left;
-width: 50%;
+  float: left;
+  width: 50%;
 }
 
 .modal {
-display: none; 
-position: fixed; 
-z-index: 1; 
-left: 0;
-top: 0;
-width: 100%; 
-height: 100%; 
-background-color: #474e5d;
-opacity: 0.85;
-padding-top: 30px;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: #474e5d;
+  opacity: 0.85;
+  padding-top: 30px;
 }
 
 .modal-content {
-background-color: #fefefe;
-margin: 5% auto 15% auto; 
-border: 1px solid #888;
-opacity: 1;
-width: 70%; 
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  opacity: 1;
+  width: 70%; 
 }
 
 hr {
-border: 1px solid #f1f1f1;
-margin-bottom: 25px;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
 }
 
 
 .clearfix::after {
-content: "";
-clear: both;
-display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
